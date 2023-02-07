@@ -1,0 +1,21 @@
+{
+  "name": "auth-server",
+  "version": "1.0.0",
+  "description": "auth-server con Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateoU1297/auth-server-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateoU1297/auth-server-node/issues"
+  },
+  "homepage": "https://github.com/mateoU1297/auth-server-node#readme"
+}
