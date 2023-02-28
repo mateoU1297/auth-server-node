@@ -39,11 +39,6 @@ const crearUsuario = async(req, res = response) => {
       msg: 'Hable con el admin'
     });
   }
-
-  return res.json({
-    ok: true,
-    msg: 'Crear usuario /new'
-  });
 }
 
 const loginUsuario = async(req, res = response) => {
@@ -72,7 +67,7 @@ const loginUsuario = async(req, res = response) => {
 
     return res.json({
       ok: true,
-      uid: dbUser.uid,
+      uid: dbUser.id,
       name: dbUser.name,
       token
     });
